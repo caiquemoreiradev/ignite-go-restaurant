@@ -12,6 +12,10 @@ export default createGlobalStyle`
     background: #fff;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   body, input, button {
